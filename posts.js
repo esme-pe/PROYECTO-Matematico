@@ -15,17 +15,17 @@ const publicaciones = [
   },
   {
     id: "otro-test",
-    titulo: "OTRO Demo del profe",
-    archivo: "entradas/otra-demo.js",
-    fecha: "2026-10-15",
-    resumen: "Otra demo en vivo"
+    titulo: "Factorizacion II",
+    archivo: "entradas/Factorizacion-II.js",
+    fecha: "2026-10-22",
+    resumen: "Suma y diferencia de cubos, y trinomios con aspa simple."
   },
   {
-    id: "nueva-demo",
-    titulo: "xxx",
-    archivo: "entradas/nuevademo.js",
-    fecha: "2026-10-12",
-    resumen: "xxx"
+    id: "demo",
+    titulo: "Ecuaciones de Primer Grado",
+    archivo: "entradas/Ecuacion-primer-grado.js",
+    fecha: "2026-10-29",
+    resumen: "Procedimiento general para resolver cualquier ecuación de primer grado."
   }
   
 ];

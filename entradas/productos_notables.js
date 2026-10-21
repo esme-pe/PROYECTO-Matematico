@@ -1,8 +1,8 @@
 contenidoEntrada = `
 <section>
    <p>Los productos notables son fórmulas que te van a ayudar a resolver ciertos polinomios sin tener que multiplicar término por término.</p>
-    <h3 class="texto1">Para qué sirven</h3>
-    <ul class="texto1">
+    <h3>Para qué sirven</h3>
+    <ul class="destacado texto1">
         
         <li>Simplificar multiplicaciones algebraicas rápidamente.</li>
         <li>Factorizar expresiones (se usan “al revés”: de x² − 16 pasas a (x + 4)(x −4)).</li>
