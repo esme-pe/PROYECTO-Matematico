@@ -12,25 +12,24 @@ contenidoEntrada = `
         <tr >
             <th>Caso</th>
             <th>Es el regreso de...</th>
-            
         </tr>
         <tr>
-            <td onclick="resaltarElemento(this)">Suma y diferencia de cubos</td>
-            <td onclick="resaltarElemento(this)">Binomio por trinomio (cubos)</td>
+            <td>Suma y diferencia de cubos</td>
+            <td>Binomio por trinomio (cubos)</td>
                       
         </tr>
         <tr>
-            <td onclick="resaltarElemento(this)">Trinomio x² + bx + c</td>
-            <td onclick="resaltarElemento(this)">Binomio con término común (1.3)</td>
+            <td>Trinomio x² + bx + c</td>
+            <td>Binomio con término común (1.3)</td>
 
         <tr>
-            <td onclick="resaltarElemento(this)">Trinomio ax² + bx + c (aspa simple)</td>
-            <td onclick="resaltarElemento(this)">Multiplicación de dos binomios (tabla del Tema 2)</td>
+            <td>Trinomio ax² + bx + c (aspa simple)</td>
+            <td>Multiplicación de dos binomios (tabla del Tema 2)</td>
             
         </tr>
     </table>
 	
-<h3>1. Suma y diferencia de cubos</h3>
+<h3 class="destacado texto1">1. Suma y diferencia de cubos</h3>
 <p>Cómo reconocerlo:</p>
 <ul>
         <li>Tiene dos términos.</li>
@@ -49,7 +48,7 @@ contenidoEntrada = `
         </tr>
 </table>
 
-<h3>2. Trinomios de la forma x² + bx + c</h3>
+<h3 class="destacado texto1">2. Trinomios de la forma x² + bx + c</h3>
 <p>Cómo reconocerlo:<p>
 <ul>
         <li>Tiene tres términos.</li>
@@ -58,7 +57,7 @@ contenidoEntrada = `
 </ul>
 
 <table>
-        <tr >
+        <tr>
             <th>x² + bx + c = (x + m)(x + n)</th>
             
         </tr>
@@ -66,7 +65,7 @@ contenidoEntrada = `
 <p>Ejemplo: x² + 3x − 28. Como c es negativo, los números tienen signos contrarios y el mayor es positivo. Los pares de 28 son 1·28 (diferencia 27), 2·14 (diferencia 12) y 4·7 (diferencia 3 ✓). Los números son +7 y −4, así que el resultado es (x + 7)(x − 4).</p>
 <p>Comprobación: x² + (7 − 4)x + (7)(−4) = x² + 3x − 28 ✓</p>
 
-<h3>3. Trinomios de la forma ax² + bx + c (aspa simple)</h3>
+<h3 class="destacado texto1">3. Trinomios de la forma ax² + bx + c (aspa simple)</h3>
 <p>Cómo reconocerlo:</p>
 <ul>
         <li>Tiene tres términos.</li>
@@ -124,7 +123,7 @@ contenidoEntrada = `
 	</tbody>
 </table>
 
-<h3>3. trinomio cuadrado perfecto</h3>
+<h3 class="destacado texto1">4. trinomio cuadrado perfecto</h3>
 <p>Cómo reconocerlo: tiene tres términos, el primero y el tercero tienen raíz cuadrada exacta, y el de en medio es el doble producto de esas raíces.</p>
 <p>Formulas<p>
 <table>
