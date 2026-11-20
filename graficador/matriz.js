@@ -117,14 +117,15 @@ function escalar(k, A) {
  * Ojo: el resultado NO tiene el mismo tamaño que A (salvo si es cuadrada).
  */
 function transpuesta(A) {
-  const [m, n] = orden(A);
-  const R = crearMatriz(n, m);   // ojo: n × m, voltea el tamaño
-  for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n; j++) {
-      R[j][i] = A[i][j];
+  const [filas, columnas] = orden(A);
+  const Resultado = crearMatriz(columnas, filas);   // n × m, voltea el tamaño
+//Algoritmo
+  for (let i = 0; i < filas; i++) {
+    for (let j = 0; j < columnas; j++) {
+      Resultado[j][i] = A[i][j];
     }
   }
-  return R;
+  return Resultado;
 }
 /**
  * Multiplicación matricial A · B: renglón por columna.
@@ -162,8 +163,14 @@ function multiplicar(A, B) {
 
 /** Determinante de una matriz 2 × 2:  ad − bc */
 function det2(T) {
-  // TODO Workshop 2
-  pendiente('det2', 'Workshop 2');
+  var determinante = 0;
+  const a = T[0][0];
+  const b = T[0][1];
+  const c = T[1][0];
+  const d = T[1][1];
+  //algoritmo
+  determinante = a * d - b * c;
+  return determinante;
 }
 
 /**
@@ -190,7 +197,14 @@ function transformar(x, y, T) {
  */
 function determinante(A) {
   // TODO Workshop 2
-  pendiente('determinante', 'Workshop 2');
+  //pendiente('determinante', 'Workshop 2');
+   const [filas, columnas] = orden(A)
+   if (filas == 2) {
+      return det2(A);
+     determinante = det2(A);
+  } else {
+    pendiente( 'determinante', 'Workshop 2');
+  }
 }
 
 
